@@ -1,5 +1,7 @@
 
 .img__card {
+  position: relative;
+  width: 385px;
 & + & {
     margin-left: 32px; 
     
@@ -13,4 +15,11 @@
     .img-card--rounder & {
       border-radius: 20px;  
     }
+}
+
+
+.img-card--info{
+position: absolute;
+right: -46px;
+bottom:87px ;
 }

@@ -5,8 +5,9 @@
 
 .objects__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    overflow-x: hidden;
 }
 .objects__img {
     display: flex;
@@ -14,8 +15,10 @@
     align-items: flex-start;
 }
 .objects__text {
-    max-width: 540px;
+    max-width: 693px;
     padding-left: 180px;
+    flex-shrink: 0;
+    padding-right: 152px;
 
 p + p {
     margin-top: 20px;
